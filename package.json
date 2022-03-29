@@ -63,7 +63,6 @@
     "graphs:clean": "rimraf graphs && mkdir graphs",
     "lint": "eslint ./{src,tests}/**/*.{js,jsx,ts,tsx}",
     "prepare": "npm run clean && npm run build",
-    "pretest": "npm run lint",
     "test": "jest",
     "test:coverage": "npm run test -- --coverage",
     "test:watch": "npm run test:coverage -- --watch",

@@ -5,8 +5,6 @@ import type Visitor from '../visitors/Visitor.js'
 import { quote, quoteColumnName, quoteTableName } from './quote.js'
 
 export default class FakeConnection implements Connection {
-  public readonly tables: string[]
-
   public visitor: Visitor | null
 
   get inClauseLength(): number {
@@ -14,8 +12,6 @@ export default class FakeConnection implements Connection {
   }
 
   constructor(visitor: Visitor | null = null) {
-    this.tables = ['users', 'photos', 'developers', 'products']
-
     this.visitor = visitor
   }
 
