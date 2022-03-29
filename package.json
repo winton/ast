@@ -25,7 +25,7 @@
   },
   "type": "module",
   "main": "./cjs/index.js",
-  "module": "./es/index.js",
+  "module": "./es/mod.js",
   "types": "./types/index.d.ts",
   "files": [
     "cjs",
