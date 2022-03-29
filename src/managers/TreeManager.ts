@@ -20,7 +20,7 @@ abstract class TreeManager<M extends TreeManager<M, S>, S extends Statement> {
     this.ast = ast
   }
 
-  toSQL(engine: Engine | null | undefined = undefined): string | null {
+  toSQL(engine: Engine | null | undefined = undefined): string {
     let currentEngine = engine
     if (typeof currentEngine === 'undefined') {
       currentEngine = SequelAST.engine
