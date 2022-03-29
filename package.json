@@ -24,7 +24,7 @@
     "url": "https://github.com/rodrigoscna"
   },
   "type": "module",
-  "main": "./cjs/index.js",
+  "main": "./es/index.js",
   "module": "./es/mod.js",
   "types": "./types/index.d.ts",
   "files": [
