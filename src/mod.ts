@@ -40,6 +40,8 @@ export * as Managers from './managers/mod.js'
 export * as Nodes from './nodes/mod.js'
 export * as Visitors from './visitors/mod.js'
 
+export { default as FakeRecord } from './support/FakeRecord.js'
+
 export { default as SequelAST } from './SequelAST.js'
 
 export { default as Table } from './Table.js'
