@@ -34,8 +34,8 @@ import Table from '../../src/Table.js'
 
 import type TypeCaster from '../../src/interfaces/TypeCaster.js'
 
-import UnboundableBindParam from '../support/UnboundableBindParam.js'
-import UnboundableQuoted from '../support/UnboundableQuoted.js'
+import UnboundableBindParam from '../../src/support/UnboundableBindParam.js'
+import UnboundableQuoted from '../../src/support/UnboundableQuoted.js'
 
 function formatDateToSQL(date: Date) {
   return date.toISOString().replace(/T/, ' ').replace(/\..+/, '')

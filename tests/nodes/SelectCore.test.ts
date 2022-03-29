@@ -9,7 +9,7 @@ import ToSQL from '../../src/visitors/ToSQL.js'
 
 import SequelAST from '../../src/SequelAST.js'
 
-import type FakeRecord from '../support/FakeRecord.js'
+import type FakeRecord from '../../src/support/FakeRecord.js'
 
 describe('SelectCore', () => {
   test('set quantifier', () => {

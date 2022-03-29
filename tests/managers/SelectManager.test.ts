@@ -35,7 +35,7 @@ import PostgreSQL from '../../src/visitors/PostgreSQL.js'
 import SequelAST from '../../src/SequelAST.js'
 import Table from '../../src/Table.js'
 
-import FakeRecord from '../support/FakeRecord.js'
+import FakeRecord from '../../src/support/FakeRecord.js'
 import { Union } from '../../src/nodes/mod.js'
 
 const scope: {

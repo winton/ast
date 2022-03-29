@@ -1,4 +1,4 @@
-import ToSQL from '../../src/visitors/ToSQL.js'
+import ToSQL from '../visitors/ToSQL.js'
 
 import FakeConnection from './FakeConnection.js'
 

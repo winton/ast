@@ -1,10 +1,10 @@
-import Boolean from '../../src/attributes/Boolean.js'
-import Decimal from '../../src/attributes/Decimal.js'
-import Float from '../../src/attributes/Float.js'
-import Integer from '../../src/attributes/Integer.js'
-import String from '../../src/attributes/String.js'
-import Time from '../../src/attributes/Time.js'
-import Undefined from '../../src/attributes/Undefined.js'
+import Boolean from '../attributes/Boolean.js'
+import Decimal from '../attributes/Decimal.js'
+import Float from '../attributes/Float.js'
+import Integer from '../attributes/Integer.js'
+import String from '../attributes/String.js'
+import Time from '../attributes/Time.js'
+import Undefined from '../attributes/Undefined.js'
 
 type AttributeType =
   | typeof Boolean

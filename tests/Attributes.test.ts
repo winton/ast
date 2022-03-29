@@ -10,7 +10,7 @@ import AttributeUndefined from '../src/attributes/Undefined.js'
 
 import Table from '../src/Table.js'
 
-import attributeFor from './support/attributeFor.js'
+import attributeFor from '../src/support/attributeFor.js'
 
 describe('Attributes', () => {
   test('responds to lower', () => {

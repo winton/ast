@@ -55,9 +55,9 @@ import Visitable from '../../src/visitors/Visitable.js'
 
 import Table from '../../src/Table.js'
 
-import FakeConnection from '../support/FakeConnection.js'
-import FakeNode from '../support/FakeNode.js'
-import FakeRecord from '../support/FakeRecord.js'
+import FakeConnection from '../../src/support/FakeConnection.js'
+import FakeNode from '../../src/support/FakeNode.js'
+import FakeRecord from '../../src/support/FakeRecord.js'
 
 const scope: {
   attribute: Attribute

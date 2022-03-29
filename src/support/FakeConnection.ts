@@ -1,6 +1,6 @@
-import type Connection from '../../src/interfaces/Connection.js'
+import type Connection from '../interfaces/Connection.js'
 
-import type Visitor from '../../src/visitors/Visitor.js'
+import type Visitor from '../visitors/Visitor.js'
 
 import { quote, quoteColumnName, quoteTableName } from './quote.js'
 

@@ -16,7 +16,7 @@ import type Quoter from '../../src/interfaces/Quoter.js'
 
 import type SelectStatement from '../../src/nodes/SelectStatement.js'
 
-import FakeRecord from '../support/FakeRecord.js'
+import FakeRecord from '../../src/support/FakeRecord.js'
 
 const connection = new FakeRecord()
 const visitor = new ToSQL(connection.connection)

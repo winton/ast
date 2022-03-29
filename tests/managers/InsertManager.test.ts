@@ -10,7 +10,7 @@ import ValuesList from '../../src/nodes/ValuesList.js'
 
 import Table from '../../src/Table.js'
 
-import FakeRecord from '../support/FakeRecord.js'
+import FakeRecord from '../../src/support/FakeRecord.js'
 
 const scope: {
   engine: Engine

@@ -8,7 +8,7 @@ import Table from '../../src/Table.js'
 
 import type Engine from '../../src/interfaces/Engine.js'
 
-import { quote, quoteColumnName, quoteTableName } from '../support/quote.js'
+import { quote, quoteColumnName, quoteTableName } from '../../src/support/quote.js'
 
 describe('Equality', () => {
   describe('backwards compat', () => {

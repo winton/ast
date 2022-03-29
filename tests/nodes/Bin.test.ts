@@ -8,7 +8,7 @@ import SQLLiteral from '../../src/nodes/SQLLiteral.js'
 import MySQL from '../../src/visitors/MySQL.js'
 import ToSQL from '../../src/visitors/ToSQL.js'
 
-import FakeRecord from '../support/FakeRecord.js'
+import FakeRecord from '../../src/support/FakeRecord.js'
 
 const engine = new FakeRecord()
 
