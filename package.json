@@ -1,5 +1,5 @@
 {
-  "name": "@sequeljs/ast",
+  "name": "@winton/ast",
   "version": "0.3.11",
   "description": "A SQL AST manager for JavaScript",
   "keywords": [
