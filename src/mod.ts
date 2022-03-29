@@ -41,6 +41,7 @@ export * as Nodes from './nodes/mod.js'
 export * as Visitors from './visitors/mod.js'
 
 export { default as FakeRecord } from './support/FakeRecord.js'
+export { default as FakePostgresRecord } from './support/FakePostgresRecord.js'
 
 export { default as SequelAST } from './SequelAST.js'
 
